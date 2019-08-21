@@ -26,7 +26,7 @@ if [ -f "/Library/Desktop Pictures/${IMAGE}.jpg" ] ; then
     fi
 fi
 
-for i in edu.berkeley.stat.cleanaccount.plist edu.berkeley.stat.updatesharedwifi.plist
+for i in org.lrtorres.cleanaccount.plist org.lrtorres.updatesharedwifi.plist
     do echo "copying ${i} to $LDDIR/${i}"
         if [ ! -f "$LDDIR/${i}" ] ; then
              cp $PROGDIR/LaunchDaemons/${i} $LDDIR/${i}

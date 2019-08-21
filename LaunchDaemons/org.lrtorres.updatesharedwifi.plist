@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>edu.berkeley.stat.updatesharedwifi</string>
+	<string>org.lrtorres.updatesharedwifi</string>
 	<key>ProgramArguments</key>
 	<array>
 	  <string>/usr/local/sbin/update-shared-network-pass.sh</string>
